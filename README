@@ -1,0 +1,11 @@
+Boost::Python currently seems to be the most advanced
+and easiest method to use C++ together with Python.
+However, it takes some time to set everything up using
+autotools instead of boost-build, so I've published my template here.
+
+To build the initial example, run ./initialize.sh.
+For most subsequent modifications, autoreconf && ./configure
+should suffice.
+
+This is based on Philipp Sterne's work here:
+http://www.inference.phy.cam.ac.uk/pjs67/boost_python_autotools.html
